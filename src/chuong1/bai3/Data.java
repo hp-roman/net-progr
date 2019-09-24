@@ -4,11 +4,11 @@ public class Data {
     private int number = 0;
     Data(){}
 
-    public void setNumber(int number) {
+    public synchronized void setNumber(int number) {
         this.number = number;
     }
 
-    public int getNumber() {
+    public synchronized int getNumber() {
         return number;
     }
 }
