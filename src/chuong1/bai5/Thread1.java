@@ -7,11 +7,16 @@ public class Thread1 extends Thread{
     }
     @Override
     public synchronized void run(){
-        for(int i = 2; i <= 1000; i++){
+        for(int i = 10; i >= 2; i--){
             if(isPrime(i) == true){
                 this.data.setNumber(i);
+                System.out.println(i);
+
                 try {
-                    wait();
+                    sleep(1000);
+                    synchronized (this) {
+                        wait();
+                    }
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }

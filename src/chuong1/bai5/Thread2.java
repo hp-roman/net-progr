@@ -5,11 +5,23 @@ public class Thread2 extends Thread {
     Thread2(Data data){
         this.data = data;
     }
-    public int sum = 0;
     @Override
-    public synchronized void run(){
-        sum += data.getNumber();
-        notify();
-    }
+    public synchronized void run() {
+        while (true){
+            this.data.setSum(this.data.getSum() + this.data.getNumber());
+            System.out.println("sum " + this.data.getSum());
+            try {
+                sleep(1000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            synchronized (this){
+                notifyAll();
+            }
+            if(this.data.getNumber() == 2){
+                break;
+            }
+        }
 
+    }
 }
