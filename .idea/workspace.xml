@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6dcdf72-642b-468c-99ae-3a9b5b36e6ed" name="Default Changelist" comment="Update Sources">
-      <change afterPath="$PROJECT_DIR$/src/chuong3/InetMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chuong3/bai6/InetMain6.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chuong3/bai5/InetMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chuong3/bai5/InetMain.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,13 +41,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.InetMain">
+  <component name="RunManager" selected="Application.InetMain6">
+    <configuration name="InetMain (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chuong3.bai5.InetMain" />
+      <module name="Network Programing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chuong3.bai5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="InetMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chuong3.InetMain" />
       <module name="Network Programing" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="chuong3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InetMain6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chuong3.bai6.InetMain6" />
+      <module name="Network Programing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chuong3.bai6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,19 +94,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainThread (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chuong1.bai3.MainThread" />
-      <module name="Network Programing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chuong1.bai3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MainThread (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chuong1.bai4.MainThread" />
       <module name="Network Programing" />
@@ -93,26 +107,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chuong1.bai2.MainThread" />
-      <module name="Network Programing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chuong1.bai2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InetMain6" />
+        <item itemvalue="Application.InetMain (1)" />
         <item itemvalue="Application.InetMain" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.MainThread (2)" />
-        <item itemvalue="Application.MainThread (1)" />
-        <item itemvalue="Application.MainThread" />
       </list>
     </recent_temporary>
   </component>
