@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6dcdf72-642b-468c-99ae-3a9b5b36e6ed" name="Default Changelist" comment="Update Sources">
-      <change afterPath="$PROJECT_DIR$/src/chuong3/bai6/InetMain6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chuong4/bainop/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chuong4/bainop/ClientDuy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chuong4/bainop/RequestProcessing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chuong4/bainop/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chuong4/bainop/SocketMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chuong3/bai5/InetMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chuong3/bai5/InetMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Network Programing/chuong3/bai6/InetMain6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Network Programing/chuong3/bai6/InetMain6.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,13 +45,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.InetMain6">
-    <configuration name="InetMain (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chuong3.bai5.InetMain" />
+  <component name="RunManager" selected="Application.ClientDuy">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chuong4.bainop.Client" />
       <module name="Network Programing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chuong3.bai5.*" />
+          <option name="PATTERN" value="chuong4.bainop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -55,12 +59,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InetMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chuong3.InetMain" />
+    <configuration name="ClientDuy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chuong4.bainop.ClientDuy" />
       <module name="Network Programing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chuong3.*" />
+          <option name="PATTERN" value="chuong4.bainop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chuong1.bai5.Main" />
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chuong4.bainop.Server" />
       <module name="Network Programing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chuong1.bai5.*" />
+          <option name="PATTERN" value="chuong4.bainop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainThread (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chuong1.bai4.MainThread" />
+    <configuration name="SocketMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chuong4.bainop.SocketMain" />
       <module name="Network Programing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chuong1.bai4.*" />
+          <option name="PATTERN" value="chuong4.bainop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClientDuy" />
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Server" />
+        <item itemvalue="Application.SocketMain" />
         <item itemvalue="Application.InetMain6" />
-        <item itemvalue="Application.InetMain (1)" />
-        <item itemvalue="Application.InetMain" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.MainThread (2)" />
       </list>
     </recent_temporary>
   </component>
