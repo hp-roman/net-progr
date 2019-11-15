@@ -16,22 +16,29 @@ public class Client {
     public static void main(String[] args) {
         Client client = new Client();
 
-        System.out.println(client.result("12"));
+        System.out.println(client.result("25"));
 
     }
 
     public String result(String mess){
         String response = "";
-        BufferedWriter os;
-        BufferedReader is;
-        InputStreamReader isr = new InputStreamReader(System.in);
+        InputStreamReader ips;
+        BufferedReader ipstr;
+        OutputStream os;
+        DataOutputStream opstr;
 
         try {
-            os = new BufferedWriter(new OutputStreamWriter(s.getOutputStream()));
-            is = new BufferedReader(new InputStreamReader(s.getInputStream()));
-            os.write(mess);
-            os.flush();
-            System.out.println();
+            ips = new InputStreamReader(s.getInputStream());
+            ipstr = new BufferedReader(ips);
+            os = s.getOutputStream();
+            opstr = new DataOutputStream(os);
+
+            opstr.writeBytes(mess);
+            opstr.write(13);
+            opstr.write(10);
+            opstr.flush();
+
+            System.out.println(ipstr.readLine());
 
 
         } catch (IOException e) {

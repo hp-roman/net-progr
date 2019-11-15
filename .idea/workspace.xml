@@ -2,64 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6dcdf72-642b-468c-99ae-3a9b5b36e6ed" name="Default Changelist" comment="Update Sources">
-      <change afterPath="$PROJECT_DIR$/src/chuong4/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chuong4/Server.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Network Programing.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Network Programing.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Network Programing/chuong1/bai1/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Network Programing/chuong1/bai1/Thread1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Network Programing/chuong1/bai1/Thread2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Network Programing/chuong1/bai1/Thread3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Network Programing/chuong1/bai1/Thread4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Network Programing/chuong1/bai2/MainThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Network Programing/chuong1/bai2/Thread1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Network Programing/chuong1/bai2/Thread2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Network Programing/chuong1/bai2/Thread3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Network Programing/chuong1/bai3/Data.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Network Programing/chuong1/bai3/MainThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Network Programing/chuong1/bai3/Thread1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Network Programing/chuong1/bai3/Thread2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Network Programing/chuong1/bai4/MainThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Network Programing/chuong1/bai4/ThreadPrime.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Network Programing/chuong1/bai5/Data.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Network Programing/chuong1/bai5/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Network Programing/chuong1/bai5/Thread1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Network Programing/chuong1/bai5/Thread2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Network Programing/chuong3/InetMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Network Programing/chuong3/bai5/InetMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Network Programing/chuong3/bai6/InetMain6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Network Programing/chuong4/bainop/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Network Programing/chuong4/bainop/ClientDuy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Network Programing/chuong4/bainop/RequestProcessing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Network Programing/chuong4/bainop/Server.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Network Programing/chuong4/bainop/SocketMain$Server.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Network Programing/chuong4/bainop/SocketMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chuong1/bai1/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chuong1/bai1/Thread1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chuong1/bai1/Thread2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chuong1/bai1/Thread3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chuong1/bai1/Thread4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chuong1/bai2/MainThread.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chuong1/bai2/Thread1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chuong1/bai2/Thread2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chuong1/bai2/Thread3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chuong1/bai3/Data.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chuong1/bai3/MainThread.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chuong1/bai3/Thread1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chuong1/bai3/Thread2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chuong1/bai4/MainThread.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chuong1/bai4/ThreadPrime.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chuong1/bai5/Data.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chuong1/bai5/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chuong1/bai5/Thread1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chuong1/bai5/Thread2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chuong3/InetMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chuong3/bai5/InetMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chuong3/bai6/InetMain6.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chuong4/bainop/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chuong4/bainop/ClientDuy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chuong4/bainop/RequestProcessing.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chuong4/bainop/Server.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Network Programing/chuong4/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Network Programing/chuong4/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Network Programing/chuong4/Server$Task1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Network Programing/chuong4/Server$Task1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Network Programing/chuong4/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Network Programing/chuong4/Server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chuong4/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chuong4/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chuong4/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chuong4/Server.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,6 +35,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Dos/chuong4" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">

@@ -30,18 +30,24 @@ public class Server {
     class Task1 extends Thread {
         @Override
         public void run(){
-            BufferedReader br;
-            BufferedWriter bw;
+            InputStreamReader ips;
+            BufferedReader ipstr;
+            OutputStream os;
+            DataOutputStream opstr;
+//            PrintWriter opstr;
             try {
-                br = new BufferedReader(new InputStreamReader(s.getInputStream()));
-                bw = new BufferedWriter(new OutputStreamWriter(s.getOutputStream()));
-                String result = br.readLine();
+                ips = new InputStreamReader(s.getInputStream());
+                ipstr = new BufferedReader(ips);
+                os = s.getOutputStream();
+                opstr = new DataOutputStream(os);
+
+                String result = ipstr.readLine();
                 result = computing(result);
-                bw.write(result);
-                bw.flush();
-                System.out.println(result);
-                br.close();
-                bw.close();
+                opstr.writeBytes(result);
+                opstr.write(13);
+                opstr.write(10);
+                opstr.flush();
+
             } catch (IOException e) {
                 e.printStackTrace();
             }
