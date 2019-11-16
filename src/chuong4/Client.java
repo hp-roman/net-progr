@@ -2,6 +2,7 @@ package chuong4;
 
 import java.io.*;
 import java.net.Socket;
+import java.util.Scanner;
 
 public class Client {
     private Socket s;
@@ -16,7 +17,7 @@ public class Client {
     public static void main(String[] args) {
         Client client = new Client();
 
-        System.out.println(client.result("25"));
+        client.result("12");
 
     }
 

@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6dcdf72-642b-468c-99ae-3a9b5b36e6ed" name="Default Changelist" comment="Update Sources">
+      <change afterPath="$PROJECT_DIR$/src/chat/tcp/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chat/tcp/Server.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Network Programing/chuong4/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Network Programing/chuong4/Client.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Network Programing/chuong4/Server$Task1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Network Programing/chuong4/Server$Task1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Network Programing/chuong4/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Network Programing/chuong4/Server.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/chuong4/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chuong4/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chuong4/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chuong4/Server.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,52 +50,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Client (1)">
+    <configuration name="Client (1)" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chat.tcp.Client" />
+      <module name="Network Programing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chat.tcp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chuong4.Client" />
       <module name="Network Programing" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="chuong4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Computing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chuong4.Computing" />
-      <module name="Network Programing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chuong4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chuong_4.MyApplication" />
-      <module name="Network Programing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chuong_4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyServer1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chuong_4.MyServer1" />
-      <module name="Network Programing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chuong_4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,13 +90,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chat.tcp.Server" />
+      <module name="Network Programing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chat.tcp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application" singleton="false">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.Client (1)" />
+      <item itemvalue="Application.Server" />
+      <item itemvalue="Application.Server (1)" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (1)" />
+        <item itemvalue="Application.Server" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Server (1)" />
-        <item itemvalue="Application.Computing" />
-        <item itemvalue="Application.MyServer1" />
-        <item itemvalue="Application.MyApplication" />
       </list>
     </recent_temporary>
   </component>
