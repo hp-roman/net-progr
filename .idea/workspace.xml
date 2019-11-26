@@ -2,13 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6dcdf72-642b-468c-99ae-3a9b5b36e6ed" name="Default Changelist" comment="Update Sources">
-      <change afterPath="$PROJECT_DIR$/src/chat/tcp/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chat/tcp/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chat/udp/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chat/udp/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chuong4/udp/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chuong4/udp/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chuong5/Bai1/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chuong5/Bai1/RMIServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chuong5/Bai1/TinhToanImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chuong5/Bai1/TinhToanServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chuong5/Bai2/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chuong5/Bai2/InterfaceServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chuong5/Bai2/RMIServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chuong5/Bai2/ServicesImpl1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chuong5/Bai2/ServicesImpl2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chuong5/RMI/Compute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chuong5/RMI/Computing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chuong5/RMI/RMIClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chuong5/RMI/RMIServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Network Programing/chuong4/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Network Programing/chuong4/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Network Programing/chuong4/Server$Task1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Network Programing/chuong4/Server$Task1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Network Programing/chuong4/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Network Programing/chuong4/Server.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chuong4/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chuong4/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Network Programing/chat/tcp/Client$ReadClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Network Programing/chat/tcp/Client$ReadClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Network Programing/chat/tcp/Client$WriteClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Network Programing/chat/tcp/Client$WriteClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Network Programing/chat/tcp/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Network Programing/chat/tcp/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Network Programing/chat/tcp/Server$ServerS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Network Programing/chat/tcp/Server$ServerS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Network Programing/chat/tcp/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Network Programing/chat/tcp/Server.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +38,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -50,13 +67,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client (1)">
+  <component name="RunManager" selected="Application.Client">
     <configuration name="Client (1)" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chat.tcp.Client" />
+      <option name="MAIN_CLASS_NAME" value="chuong5.Bai1.Client" />
       <module name="Network Programing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chat.tcp.*" />
+          <option name="PATTERN" value="chuong5.Bai1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,11 +82,11 @@
       </method>
     </configuration>
     <configuration name="Client" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chuong4.Client" />
+      <option name="MAIN_CLASS_NAME" value="chuong5.Bai2.Client" />
       <module name="Network Programing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chuong4.*" />
+          <option name="PATTERN" value="chuong5.Bai2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Server (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chuong4.Server" />
+    <configuration name="RMIClient" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chuong5.RMI.RMIClient" />
       <module name="Network Programing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chuong4.*" />
+          <option name="PATTERN" value="chuong5.RMI.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +107,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chat.tcp.Server" />
+    <configuration name="RMIServer (1)" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chuong5.Bai1.RMIServer" />
       <module name="Network Programing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chat.tcp.*" />
+          <option name="PATTERN" value="chuong5.Bai1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RMIServer (2)" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chuong5.Bai2.RMIServer" />
+      <module name="Network Programing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chuong5.Bai2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,17 +139,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.RMIClient" />
+      <item itemvalue="Application.RMIServer (1)" />
       <item itemvalue="Application.Client (1)" />
-      <item itemvalue="Application.Server" />
-      <item itemvalue="Application.Server (1)" />
+      <item itemvalue="Application.RMIServer (2)" />
+      <item itemvalue="Application.Client" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Client (1)" />
-        <item itemvalue="Application.Server" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.Server (1)" />
+        <item itemvalue="Application.RMIServer (2)" />
+        <item itemvalue="Application.Client (1)" />
+        <item itemvalue="Application.RMIServer (1)" />
+        <item itemvalue="Application.RMIClient" />
       </list>
     </recent_temporary>
   </component>
