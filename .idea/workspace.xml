@@ -2,29 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6dcdf72-642b-468c-99ae-3a9b5b36e6ed" name="Default Changelist" comment="Update Sources">
-      <change afterPath="$PROJECT_DIR$/src/chat/udp/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chat/udp/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chuong4/udp/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chuong4/udp/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chuong5/Bai1/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chuong5/Bai1/RMIServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chuong5/Bai1/TinhToanImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chuong5/Bai1/TinhToanServices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chuong5/Bai2/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chuong5/Bai2/InterfaceServices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chuong5/Bai2/RMIServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chuong5/Bai2/ServicesImpl1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chuong5/Bai2/ServicesImpl2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chuong5/RMI/Compute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chuong5/RMI/Computing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chuong5/RMI/RMIClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chuong5/RMI/RMIServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chuong4/bai1/SSClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chuong4/bai1/SSServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chuong4/bai1/TTClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chuong4/bai1/TTServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chuong4/bai2/SSClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chuong4/bai2/SSServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chuong4/bai2/TTClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chuong4/bai2/TTServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Network Programing/chat/tcp/Client$ReadClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Network Programing/chat/tcp/Client$ReadClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Network Programing/chat/tcp/Client$WriteClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Network Programing/chat/tcp/Client$WriteClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Network Programing/chat/tcp/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Network Programing/chat/tcp/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Network Programing/chat/tcp/Server$ServerS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Network Programing/chat/tcp/Server$ServerS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Network Programing/chat/tcp/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Network Programing/chat/tcp/Server.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,13 +33,21 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Qzdzp0gnV82HYlb5daQeJwvdnJ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Dos/chuong4" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/chuong4/bai2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/chuong4/bai2" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
